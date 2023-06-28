@@ -25,6 +25,7 @@ def verify_otp():
 
 
 
+        client = Client(account_sid, auth_token)
 
 
         verification = client.verify \
